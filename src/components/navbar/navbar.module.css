@@ -1,0 +1,56 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: #53c28b;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.Navlinks {
+  display: none;
+}
+
+
+.toggleIcons {
+    font-size:25px;
+    color: rgb(164, 101, 42);
+    cursor: pointer;
+
+}
+
+@media (max-width: 959px) {
+  .links {
+    display: none;
+  }
+}
+
+.toggleNav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (min-width: 970px) {
+    .NavToggle{
+        display: none;
+    }
+}
